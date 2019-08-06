@@ -1,0 +1,67 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+.success{
+    font-size: 35px;
+    color: #28a745;
+}
+.failure{
+    font-size: 35px;
+    color: #dc3545;
+}
+#inputform{
+    font-size: 25px;
+}
+.btn{
+    padding: 5px 30px;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #999;
+}
+.btn2{
+    font-size: 24px;
+}
+.btn:hover {
+    background-color: #f50101
+}
+.btn:active {
+    background-color: #df7474;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.paraText{
+    font-size: 25px;
+}
+.paraText2{
+    font-family: Menlo, sans-serif;
+}
+.paraText3{
+    font-family: Arial, sans-serif;
+}
+a{
+    color: rgb(255, 0, 85);
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+  
+a:active {
+    color: black;
+}
+.error{
+    font-size: 30px;
+    color: red;
+}
+.palindromeText{
+    font-size: 22px;
+}
+.palindromeText2{
+font-style: italic;
+}

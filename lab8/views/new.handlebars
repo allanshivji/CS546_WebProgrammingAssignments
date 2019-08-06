@@ -1,0 +1,12 @@
+<h1>The Palindrome Results!</h1>
+<main>
+    {{#if post.a}}
+    <p class="success">{{post.text-to-test}}</p>
+    <p class="paraText paraText2">It is Palindrome</p>
+    {{else}}
+    <p class="failure">{{post.text-to-test}}</p>
+    <p class="paraText paraText3">It is not Palindrome</p>
+    {{/if}}
+</main>
+
+<a href="http://localhost:3000">Try Another Palindrome</a>

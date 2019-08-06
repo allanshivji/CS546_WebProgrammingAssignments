@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(248, 248, 48);
+    text-align: center;
+}
+.is-palindrome{
+    color: #0000FF;
+    font-size: 20px;
+}
+.not-palindrome{
+    color: #FF0000;
+    font-size: 20px;
+}
+#attempts{
+    text-align: center;
+    list-style-position: inside;
+}
+.bttn{
+    padding: 5px 30px;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #999;
+}
+.bttn2{
+    font-size: 24px;
+}
+.bttn:hover {
+    background-color: #f50101
+}
+.bttn:active {
+    background-color: #df7474;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.area{
+    width:300px;
+    height:25px;
+}
+.labelFont{
+    font-size: 25px;
+    font-style: italic;
+}
+.footerText{
+    font-size: 20px;
+}
+.footerText2{
+    font-family: Menlo, sans-serif;
+}
+.error2{
+    font-size: 20px;
+    color: rgb(195, 0, 255);
+}
+.pBox{
+    background-color: rgb(217, 217, 250);
+    width: 1175px;
+    border: 2px solid #0000FF;
+    padding: 3px;
+}
+.npBox{
+    background-color: rgb(250, 217, 217);
+    width: 1175px;
+    border: 2px solid #FF0000;
+    padding: 3px;
+}
